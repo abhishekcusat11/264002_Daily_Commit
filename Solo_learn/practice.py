@@ -68,11 +68,24 @@
 
 # 
 
-def power(x, y):
+# def power(x, y):
 
-    if y == 0:
+#     if y == 0:
 
-        return 1
-    else:
-        return x * power(x, y-1)		
-print(power(2, 3))
+#         return 1
+#     else:
+#         return x * power(x, y-1)		
+# print(power(2, 3))
+# # 
+# def func(**kwargs):
+#     print(kwargs["zero"])
+
+# func(a = 0, zero = 8)
+for i in range(10):
+    try: 
+        if 10 / i == 2.0:
+            break
+        except ZeroDivisionError:
+            print(1)
+        else:
+            print(2)
