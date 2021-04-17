@@ -30,5 +30,49 @@
 # else:
 #   print(2)
 
-nums = (55, 44, 33, 22)
-print(max(min(nums[:2]), abs(-42)))
+# nums = (55, 44, 33, 22)
+# print(max(min(nums[:2]), abs(-42)))
+
+# def test(func, arg):
+#       return func(func(arg))
+
+# def mult(x):
+#   return x * x
+
+# print(test(mult, 2))
+
+# def func(x):
+#       y = x**2
+#   z = x + y
+#   return z
+
+# def fib(x):
+#       if x == 0 or x == 1:
+#         return 1
+#       else: 
+#         return fib(x-1) + fib(x-2)
+# print(fib(4))
+
+# a = {1, 2, 3}
+# b = {0, 3, 4, 5}
+# print(a & b)
+
+# There are many functions in itertools that operate on iterables, in a similar way to map and filter.
+# Some examples:
+# takewhile - takes items from an iterable while a predicate function remains true;
+# chain - combines several iterables into one long one;
+# accumulate - returns a running total of values in an iterable.
+# from itertools import product
+# a={1, 2}
+# print(len(list(product(range(3), a))))
+
+# 
+
+def power(x, y):
+
+    if y == 0:
+
+        return 1
+    else:
+        return x * power(x, y-1)		
+print(power(2, 3))
