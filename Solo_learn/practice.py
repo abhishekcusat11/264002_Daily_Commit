@@ -81,11 +81,72 @@
 #     print(kwargs["zero"])
 
 # func(a = 0, zero = 8)
-for i in range(10):
-    try: 
-        if 10 / i == 2.0:
-            break
-        except ZeroDivisionError:
-            print(1)
-        else:
-            print(2)
+# for i in range(10):
+#     try: 
+#         if 10 / i == 2.0:
+#             break
+#         except ZeroDivisionError:
+# #             print(1)
+# #         else:
+# #             print(2)
+
+# i=0
+# while i<=5:
+#     i+=1
+#     if i%2 ==0:
+#         break
+#     print("*")
+
+# x=1
+# x=x==x
+# print(x)
+
+# l1=[1,2,3]
+# l2=[]
+# for v in l1:
+#     l2.insert(0,v)
+# print(l2)
+
+# z=10
+# y=0
+# x=y<z and z>y or y>z and z<y
+# print(x)
+
+# a=1
+# b=0
+# c=a&b
+# d=a|b 
+# e=a^b
+# print(c+d+e)
+# t= [[3-i for i in range(3)] for j in range(3) ]
+# s=0
+# for i in range(3):
+#     s+=t[i][i]
+# print(s)
+
+# nums =[1,2,3]
+# vals=nums[-1:-2]
+# print(vals)
+# print(nums)
+# def func_1(a):
+#     return a**a 
+# def func_2(a):
+#     return func_1(a) * func_2(a)
+# print(func_2(2))
+# import math
+# result=math.e !=math.pow(2,4)
+# print(int(result))
+# 
+# from random import randint
+# for i in range(2):
+#     print(randint(1,2) ,end='')
+# x='\''
+# # print(len(x))
+# try:
+#     print("5"/0)
+# except ArithmeticError:
+#     print("Arith")
+# except ZeroDivisionError:
+#     print("Zero")
+# except:
+#     print("some")
