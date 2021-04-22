@@ -9,3 +9,4 @@ elif var == "smh":
     print ("shaking my head")
 else:
     print("Good bye..Incorrect input..")
+
