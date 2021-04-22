@@ -6,4 +6,4 @@ for n in map(int,input().split()):
             max,max2 = n,max
         elif n < max:
             max2 = n
-print(max2);
+print(max2)
