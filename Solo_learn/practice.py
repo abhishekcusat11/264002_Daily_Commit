@@ -349,8 +349,28 @@
 # y=input()
 # x=input()
 # print(x+y)hh
-a =10
-b=20
-del a
-c=a+b
-print(c)
+# a =10
+# b=20
+# del a
+# c=a+b
+# print(c)
+# num1,num2=1,2
+# while num1<10:
+#     print(num1 , end=',')
+#     num1,num2=num2,num1+num2sampl 
+# sample=['oceans' ,'Hills','MOUNTAINS']
+# for c in sample:
+#     print(c,len(c))
+# def demo(n):
+#     return lambda x:x+n
+# f=demo(2020)
+# print(f(2))
+
+# def demo(num):
+#     while num <5:
+#         temp =0
+#         print("Valid Value")
+#         temp =temp+1
+# f= demo(3)
+
+print('the value of x is {1} and y is {2} and z is{3}'.format(42,89,15))
